@@ -23,8 +23,9 @@ struct Image
     bool write(const char* );
     ImageType getFileType(const char* );
 
+    Image& resize(const char* );
     Image& grayScaleAVG();
     Image& grayScaleLUM();
-    void textConvert(const char*);
+    void textConvert(const char* );
 };
 
