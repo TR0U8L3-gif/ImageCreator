@@ -7,7 +7,7 @@ using namespace std;
 int main (int argc, char** argv){
 
     Image test("img/test.jpg");
-
+    cout << "start" << endl;
     Image resize = test;
     resize.resize("test_resize.png");
     Image gray("test_resize.png");
